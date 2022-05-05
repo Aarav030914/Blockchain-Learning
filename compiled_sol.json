@@ -1,0 +1,43 @@
+{
+    "contracts": {
+        "SimpleStorage.sol": {
+            "simplestorage": {
+                "abi": [
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "x",
+                                "type": "uint256"
+                            }
+                        ],
+                        "name": "add",
+                        "outputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052738e2017d2870539c9373f85a93e0ee1e5de67d4916000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506012600155600a60025534801561006e57600080fd5b5060b08061007d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80631003e2d214602d575b600080fd5b605660048036036020811015604157600080fd5b8101908080359060200190929190505050606c565b6040518082815260200191505060405180910390f35b60008160025401905091905056fea2646970667358221220458ab2eb063729b164be706e414b87a17d5136fab98f2a6fb559ffcc0f2a9ac364736f6c63430006000033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH20 0x8E2017D2870539C9373F85A93E0EE1E5DE67D491 PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP PUSH1 0x12 PUSH1 0x1 SSTORE PUSH1 0xA PUSH1 0x2 SSTORE CALLVALUE DUP1 ISZERO PUSH2 0x6E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB0 DUP1 PUSH2 0x7D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x1003E2D2 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x56 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x41 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH1 0x6C JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP2 PUSH1 0x2 SLOAD ADD SWAP1 POP SWAP2 SWAP1 POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASLIMIT DUP11 0xB2 0xEB MOD CALLDATACOPY 0x29 0xB1 PUSH5 0xBE706E414B DUP8 LOG1 PUSH30 0x5136FAB98F2A6FB559FFCC0F2A9AC364736F6C6343000600003300000000 ",
+                        "sourceMap": "58:239:0:-:0;;;107:42;86:63;;;;;;;;;;;;;;;;;;;;172:2;155:19;;200:2;180:22;;58:239;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:239:0;;;;;;;"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"add\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"SimpleStorage.sol\":\"simplestorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"SimpleStorage.sol\":{\"keccak256\":\"0x497a3c44b3a4eb512b829e5d46dcd027adaff08340cf2f60f287cd2bd5909eb5\",\"urls\":[\"bzz-raw://c816ac73f445268e1d25a35fceacab404c53e9df9f31a24e95b3669034922727\",\"dweb:/ipfs/QmXR9zgoaXzGG9nqVXcieyNucXBpBQw9NuviQKknZizxEB\"]}},\"version\":1}"
+            }
+        }
+    },
+    "sources": {
+        "SimpleStorage.sol": {
+            "id": 0
+        }
+    }
+}
